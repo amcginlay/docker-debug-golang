@@ -11,7 +11,9 @@
 - VSCode is the development IDE in use.
 - [Microsoft's Docker Extension](https://github.com/microsoft/vscode-docker) for VSCode is installed
 - Ports 8080 and 4000 on the local machine and not currently in use
-- Next steps? [Getting started with vim Go](https://www.youtube.com/watch?v=7zCCnT9a58k&list=WL&index=1&t=83s)
+- Next steps?
+  - [Getting started with vim Go](https://www.youtube.com/watch?v=7zCCnT9a58k&list=WL&index=1&t=83s)
+  - [VS Code Dev Containers](https://www.youtube.com/watch?v=dihfA7Ol6Mw)
 
 ## Steps to demo debugging in docker-based Golang application
 - Clone this repo
