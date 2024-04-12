@@ -2,6 +2,7 @@
 
 ## Bookmarks
 - [Golang: Debug Docker & Kubernetes containers](https://www.youtube.com/watch?v=zs3XQMTHQBE)
+- [Debugging a Go Application Inside Docker Using VSCode](https://dev.to/bruc3mackenzi3/debugging-go-inside-docker-using-vscode-4f67)
 - [Docker Compose to Docker Run Converter](https://ray.run/tools/docker-compose-to-docker-run)
 - [Docker Run to Docker Compose Converter](https://ray.run/tools/docker-run-to-docker-compose)
 
