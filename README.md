@@ -1,6 +1,7 @@
 # Debugging Golang via Docker
 
 ## Bookmarks
+- [Golang: Debug Docker & Kubernetes containers](https://www.youtube.com/watch?v=zs3XQMTHQBE)
 - [Docker Compose to Docker Run Converter](https://ray.run/tools/docker-compose-to-docker-run)
 - [Docker Run to Docker Compose Converter](https://ray.run/tools/docker-run-to-docker-compose)
 
