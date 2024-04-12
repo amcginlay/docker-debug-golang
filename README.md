@@ -15,8 +15,8 @@
 ## Steps to demo debugging in docker-based Golang installation
 - Clone this repo
 - Open VSCode against this cloned folder
-- In the VSCode terminal, run `docker-compose --build up debug-server`
-- `curl localhost:80/hello` to test server is running
+- In the VSCode terminal, run `docker-compose up debug`
+- `curl localhost:8080/hello` to test server is running
 - To attach the debugger to the running process:
   - Select the "Run And Debug" panel in VSCode
   - Select "Docker: Attach to Golang" from the dropdown (NOTE: this is defined in the `.vscode/launch.json` file)
