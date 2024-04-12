@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Docker: Attach To Golang",
+            "type": "go",
+            "request": "attach",
+            "mode": "remote",
+            "port": 4000,
+            "host": "127.0.0.1",
+            "stopOnEntry": false,
+            "substitutePath":
+            [
+                {
+                    "from": "${workspaceFolder}/src",
+                    "to": "/src"
+                }
+            ]
+        },
+        {
+            "name": "Launch Local",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/src",
+            "env": {
+                "GO111MODULE": "off"
+            }
+        }
+    ]
+}

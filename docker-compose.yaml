@@ -1,0 +1,20 @@
+version: "3.4"
+services:
+  # NOTE unlike nodejs (interpreted) I see no point in adding (-v | volumes:) runtime mounts
+  prod: # docker run --name prod-server --publish 8080:80 prod-image
+    container_name: prod-server
+    ports:
+      - '8080:80'
+    image: prod-image
+    build:
+      dockerfile: Dockerfile
+  debug: # docker run --name debug-server --publish 8080:80 --publish 4000:4000 --security-opt "seccomp:unconfined" debug-image
+    container_name: debug-server
+    ports:
+      - '8080:80'
+      - '4000:4000'
+    security_opt: # necessary?
+      - 'seccomp:unconfined'
+    image: debug-image
+    build:
+      dockerfile: Dockerfile.debug
