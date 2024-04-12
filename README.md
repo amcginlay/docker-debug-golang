@@ -1,4 +1,4 @@
-# Debugging Golang via Docker
+# Debugging Golang via Docker and VSCode
 
 ## Bookmarks
 - [Golang: Debug Docker & Kubernetes containers](https://www.youtube.com/watch?v=zs3XQMTHQBE)
@@ -12,7 +12,7 @@
 - [Microsoft's Docker Extension](https://github.com/microsoft/vscode-docker) for VSCode is installed
 - Ports 8080 and 4000 on the local machine and not currently in use
 
-## Steps to demo debugging in docker-based Golang installation
+## Steps to demo debugging in docker-based Golang application
 - Clone this repo
 - Open VSCode against this cloned folder
 - In the VSCode terminal, run `docker-compose up debug`
